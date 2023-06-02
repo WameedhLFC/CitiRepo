@@ -26,3 +26,60 @@ INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
 Jun 02, 2023 2:04:36 PM org.flywaydb.core.internal.command.DbMigrate logSummary
 INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.045s)
 2023.06.02 14:04:36 INFO  time: initialize in 0.51s
+2023.06.02 14:04:38 WARN  Build server is not auto-connectable.
+2023.06.02 14:04:40 INFO  running 'C:\Users\wamee\.jabba\jdk\adopt@1.11.0-11\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\wamee\AppData\Local\Temp\metals7390229574405387172\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.06.02 14:04:44 INFO  [info] welcome to sbt 1.8.2 (AdoptOpenJDK Java 11.0.11)
+2023.06.02 14:04:46 INFO  [info] loading settings for project citisbt-build-build from metals.sbt ...
+2023.06.02 14:04:46 INFO  [info] loading project definition from C:\Users\wamee\ScalaWam\citisamples\citisbt\project\project
+2023.06.02 14:04:49 INFO  [info] loading settings for project citisbt-build from metals.sbt ...
+2023.06.02 14:04:49 INFO  [info] loading project definition from C:\Users\wamee\ScalaWam\citisamples\citisbt\project
+2023.06.02 14:04:54 INFO  [success] Generated .bloop\citisbt-build.json
+2023.06.02 14:04:54 INFO  [info] compiling 1 Scala source to C:\Users\wamee\ScalaWam\citisamples\citisbt\project\target\scala-2.12\sbt-1.0\classes ...
+2023.06.02 14:04:54 INFO  [info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.17. Compiling...
+2023.06.02 14:05:03 INFO  [info]   Compilation completed in 8.311s.
+2023.06.02 14:05:04 INFO  [info] done compiling
+2023.06.02 14:05:04 INFO  [success] Total time: 16 s, completed Jun 2, 2023, 2:05:04 PM
+2023.06.02 14:05:06 INFO  [info] loading settings for project root from build.sbt ...
+2023.06.02 14:05:06 INFO  [info] set current project to CitiSbt (in build file:/C:/Users/wamee/ScalaWam/citisamples/citisbt/)
+2023.06.02 14:05:07 INFO  [success] Generated .bloop\root.json
+2023.06.02 14:05:07 INFO  [success] Generated .bloop\root-test.json
+2023.06.02 14:05:07 INFO  [success] Total time: 1 s, completed Jun 2, 2023, 2:05:07 PM
+2023.06.02 14:05:07 INFO  time: ran 'sbt bloopInstall' in 26s
+2023.06.02 14:05:07 INFO  Attempting to connect to the build server...
+2023.06.02 14:05:07 INFO  Bloop uses C:\Program Files\Java\jdk1.8.0_321\jre defined at C:\Users\wamee\.bloop\bloop.json
+2023.06.02 14:05:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\wamee\ScalaWam\citisamples\citisbt\.metals\bsp.trace.json or C:\Users\wamee\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.02 14:05:10 INFO  Attempting to connect to the build server...
+2023.06.02 14:05:10 INFO  Bloop uses C:\Program Files\Java\jdk1.8.0_321\jre defined at C:\Users\wamee\.bloop\bloop.json
+2023.06.02 14:05:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\wamee\ScalaWam\citisamples\citisbt\project\.metals\bsp.trace.json or C:\Users\wamee\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.02 14:05:11 INFO  time: Connected to build server in 3.96s
+2023.06.02 14:05:11 INFO  Connected to Build server: Bloop v1.5.6
+2023.06.02 14:05:19 INFO  time: indexed workspace in 7.75s
+2023.06.02 14:06:02 INFO  compiling root (1 scala source)
+2023.06.02 14:06:10 INFO  compiling root-test (1 scala source)
+2023.06.02 14:06:10 INFO  time: compiled root in 8.18s
+2023.06.02 14:06:10 INFO  time: compiled root-test in 0.56s
+2023.06.02 14:10:09 INFO  compiling root (1 scala source)
+2023.06.02 14:10:09 INFO  time: compiled root in 0.51s
+Jun 02, 2023 2:10:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 165
+Jun 02, 2023 2:10:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 166
+something's wrong: no file:///C:/Users/wamee/ScalaWam/citisamples/citisbt/src/main/scala/example/addNumbers.scala in Array[<error>]RangePosition(file:///C:/Users/wamee/ScalaWam/citisamples/citisbt/src/main/scala/example/addNumbers.scala, 60, 60, 75)
+something's wrong: no file:///C:/Users/wamee/ScalaWam/citisamples/citisbt/src/main/scala/example/addNumbers.scala in Array[<error>]RangePosition(file:///C:/Users/wamee/ScalaWam/citisamples/citisbt/src/main/scala/example/addNumbers.scala, 60, 60, 68)
+something's wrong: no file:///C:/Users/wamee/ScalaWam/citisamples/citisbt/src/main/scala/example/addNumbers.scala in Array[<error>]RangePosition(file:///C:/Users/wamee/ScalaWam/citisamples/citisbt/src/main/scala/example/addNumbers.scala, 60, 60, 69)
+something's wrong: no file:///C:/Users/wamee/ScalaWam/citisamples/citisbt/src/main/scala/example/addNumbers.scala in Array[<error>]RangePosition(file:///C:/Users/wamee/ScalaWam/citisamples/citisbt/src/main/scala/example/addNumbers.scala, 60, 60, 71)
+something's wrong: no file:///C:/Users/wamee/ScalaWam/citisamples/citisbt/src/main/scala/example/addNumbers.scala in Array[<error>]RangePosition(file:///C:/Users/wamee/ScalaWam/citisamples/citisbt/src/main/scala/example/addNumbers.scala, 60, 60, 72)
+something's wrong: no file:///C:/Users/wamee/ScalaWam/citisamples/citisbt/src/main/scala/example/addNumbers.scala in Array[String]RangePosition(file:///C:/Users/wamee/ScalaWam/citisamples/citisbt/src/main/scala/example/addNumbers.scala, 60, 60, 73)
+something's wrong: no file:///C:/Users/wamee/ScalaWam/citisamples/citisbt/src/main/scala/example/addNumbers.scala in Array[<error>]RangePosition(file:///C:/Users/wamee/ScalaWam/citisamples/citisbt/src/main/scala/example/addNumbers.scala, 60, 60, 74)
+something's wrong: no file:///C:/Users/wamee/ScalaWam/citisamples/citisbt/src/main/scala/example/addNumbers.scala in Array[<error>]RangePosition(file:///C:/Users/wamee/ScalaWam/citisamples/citisbt/src/main/scala/example/addNumbers.scala, 60, 60, 74)
+something's wrong: no file:///C:/Users/wamee/ScalaWam/citisamples/citisbt/src/main/scala/example/addNumbers.scala in Array[<error>]RangePosition(file:///C:/Users/wamee/ScalaWam/citisamples/citisbt/src/main/scala/example/addNumbers.scala, 60, 60, 74)
+2023.06.02 14:12:53 INFO  compiling root (1 scala source)
+2023.06.02 14:12:53 INFO  time: compiled root in 0.28s
+2023.06.02 14:12:59 INFO  compiling root (1 scala source)
+2023.06.02 14:12:59 INFO  time: compiled root in 0.18s
+2023.06.02 14:13:15 INFO  compiling root (1 scala source)
+2023.06.02 14:13:15 INFO  time: compiled root in 0.8s
+2023.06.02 14:13:39 INFO  compiling root (1 scala source)
+2023.06.02 14:13:39 INFO  time: compiled root in 0.72s
+2023.06.02 14:14:21 INFO  compiling root (1 scala source)
+2023.06.02 14:14:21 INFO  time: compiled root in 0.44s
