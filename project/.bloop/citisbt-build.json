@@ -203,7 +203,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "C:\\Users\\wamee\\.jabba\\jdk\\adopt@1.11.0-11",
+                "home": "C:\\Program Files\\Java\\jdk1.8.0_321\\jre",
                 "options": [
                     "-Duser.dir=C:\\Users\\wamee\\ScalaWam\\citisamples\\citisbt\\project"
                 ]
